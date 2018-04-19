@@ -1,0 +1,29 @@
+{
+  "name": "react-material-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html -d dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorwebk/react-material-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorwebk/react-material-template/issues"
+  },
+  "homepage": "https://github.com/taylorwebk/react-material-template#readme",
+  "dependencies": {
+    "material-ui": "^1.0.0-beta.42",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "typeface-roboto": "0.0.54"
+  }
+}
